@@ -2,11 +2,11 @@
   <head>
     <script type="text/javascript">
       function replaceName() {
-        var myNewName = windows.promt('Give me a name');
+        var myNewName = window.prompt('Give me a name');
         var un = document.getElementById('user-name');
         un.innerHTML = myNewName;
       }
-      document.onclick = replaceName();
+      document.onclick = replaceName;
     </script>
     <style>
   

@@ -1,9 +1,29 @@
 <html>
   <head>
     <script type="text/javascript">
+    
+      var names = [
+        "Mhaire",
+        "Charmaine",
+        "Kukka",
+        "Elizabeth",
+        "Anastasia",
+        "Tiffani",
+        "Bitsy"];
+        
+      var familyNames = [
+        "Sparklehat",
+        "Jubilee",
+        "Pumpkin",
+        "Tiarabreath"];
+    
       function replaceName() {
+        var nameIndex = Math.floor(Math.random()*names.length);
+        var fnameIndex = Math.floor(Math.random()*familyNames.length);
+        
+        var myNewName = names[nameIndex] + familyNames[fnameIndex];
+        
         var un = document.getElementById('user-name');
-        var myNewName = window.prompt('Give me a name /' + un.innerHTML);
         un.innerHTML = myNewName;
       }
       document.onclick = replaceName;

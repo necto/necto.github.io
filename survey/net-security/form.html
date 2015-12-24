@@ -420,6 +420,10 @@ input[type='text'], input:not([type]), textarea {
           _initFormViewer(
             "[100,,[]\n]\n");</script>
 <script type="text/javascript">
-  document.getElementById("entry_885211164").value = getParameterByName("source");
+  srcVal = getParameterByName("source");
+  if (!srcVal || srcVal.length == 0) {
+    srcVal = "unspecified";
+  }
+  document.getElementById("entry_885211164").value = srcVal;
 </script>
 </div></body></html>

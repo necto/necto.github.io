@@ -1,1 +1,8 @@
-Hello, this is Arseniy Zaostrovnykh's personal page.
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+---
+
+Hello, this is personal page of Arseniy Zaostrovnykh.

@@ -5,4 +5,10 @@
 layout: home
 ---
 
-Hello, this is personal page of Arseniy Zaostrovnykh.
+Hello, I am Arseniy Zaostrovnykh:
+
+- a computer scientist ([CV](online-cv/))
+- a sports addict
+
+Welcome to my personal website.
+
